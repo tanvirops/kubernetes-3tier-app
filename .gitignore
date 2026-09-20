@@ -3,8 +3,6 @@ node_modules/
 */node_modules/
 
 # Environment files
-.env
-.env.local
 .env.*.local
 backend/.env
 
@@ -24,7 +22,6 @@ backend/logs/
 Thumbs.db
 
 # Editor files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -50,3 +47,4 @@ Thumbs.db
 # LoadBalancer variant secrets (never commit real secrets)
 #k8s-LoadBalancer/postgres/secret.yaml
 #k8s-LoadBalancer/backend/secret.yaml
+config.bat
